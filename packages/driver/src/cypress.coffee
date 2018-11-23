@@ -477,7 +477,7 @@ class $Cypress
   sinon: sinon
   lolex: lolex
 
-  _.extend $Cypress.prototype.$, _.pick($, "Event", "Deferred", "ajax", "get", "getJSON", "getScript", "post", "when")
+  _.extend $Cypress.prototype.$, _.pick($, "Event", "Deferred", "ajax", "get", "getJSON", "getScript", "post", "when", "expr")
 
   @create = (config) ->
     new $Cypress(config)
